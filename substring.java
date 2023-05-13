@@ -9,8 +9,8 @@ public class substring {
     return ;}
     // including the index element
     PrintSubString(arr, index+1, tempArr);
-     //add the symbol of the string to the arraylist
-     tempArr.add(arr[index]);
+    //add the symbol of the string to the arraylist
+    tempArr.add(arr[index]);
      // not including the index 
      PrintSubString(arr, index+1, tempArr);
      // removing the last values 
@@ -18,9 +18,7 @@ public class substring {
    }
     public static void main(String[] args) {
         int a[]={1,2};
-        PrintSubString(a, 0, new ArrayList<>());
-        
-        
+        PrintSubString(a, 0, new ArrayList<>());         
     }
 }
  
